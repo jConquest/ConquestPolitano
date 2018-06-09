@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="eFD4Rl" name="ConquestNSH" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.ConquestNSH" includeBinaryInAppConfig="1"
+              cppLanguageStandard="11" companyCopyright="" buildVST="1" buildVST3="0"
+              buildAU="1" buildAUv3="0" buildRTAS="0" buildAAX="0" buildStandalone="1"
+              enableIAA="0" pluginName="ConquestNSH" pluginDesc="ConquestNSH"
+              pluginManufacturer="yourcompany" pluginManufacturerCode="Manu"
+              pluginCode="Efd4" pluginChannelConfigs="" pluginIsSynth="0" pluginWantsMidiIn="0"
+              pluginProducesMidiOut="0" pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0"
+              pluginAUExportPrefix="ConquestNSHAU" pluginRTASCategory="" aaxIdentifier="com.yourcompany.ConquestNSH"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="5.2.0">
+  <MAINGROUP id="D5n9Vn" name="ConquestNSH">
+    <GROUP id="{0DC27A91-A484-D6A6-BFB1-5C725EFB73DE}" name="Source">
+      <FILE id="PFugH1" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="OjqGhB" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="hH1yTZ" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="TKX2gC" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="ZKlhX4" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2017 targetFolder="Builds/VisualStudio2017">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
+                       linkTimeOptimisation="0" isDebug="1" optimisation="1" targetName="ConquestNSH"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="x64"
+                       debugInformationFormat="ProgramDatabase" enablePluginBinaryCopyStep="0"
+                       linkTimeOptimisation="1" isDebug="0" optimisation="3" targetName="ConquestNSH"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../Desktop/juce-huckleberry-windows/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2017>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>
